@@ -1,0 +1,24 @@
+
+
+improve checkers:
+	each piece keeps track of it's last move, don't move back and forth
+	use fractions to determine value, not raw count. aka, having 1 extra piece is 50% better for you, not simply +10
+	aka, trade pieces when you are up
+
+	
+white+white+whitek+whitek = 60
+vs	(value=20)					=> 60/40 = 1.5
+red+red+redk		=  40
+
+white+white+whitek		=  40
+vs	(value = 20)					=> 40/20 = 2
+red+red			=  20
+
+
+
+TODO*** put in something that lets you start a game from a predefined position
+
+ideas:
+have the getValue function set all the moves' values, even if they are unneeded.
+to choose the best one, have a seperate function to loop through the current moves we have, and choose the best one.
+

@@ -1,0 +1,11 @@
+{
+  "name": "checkersai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeserver.js",
+  "scripts": {
+    "test": "node nodeserver.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
